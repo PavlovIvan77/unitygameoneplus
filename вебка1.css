@@ -1,0 +1,72 @@
+
+body {
+    background-image: url("https://avatars.mds.yandex.net/i?id=7bbc51243e2502b0b2551e80a6bd0159_l-5234975-images-thumbs&n=13");
+    background-attachment: fixed;
+}
+h1 {
+    position: sticky;
+    font-size: 25px;
+    top: 0;
+    z-index: 1;
+
+    color: rgb(214, 146, 67);
+    text-align: center;
+    background-color: white;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+.city {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+}
+.tex {
+    background-color: black;
+    
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.cen {
+    text-align: center;
+}
+div.static{
+    position: static;
+    margin-right: 600px;
+    right: 30px;
+    border: 10px dotted yellowgreen;
+}
+/* dashed, z-index, opacity */
+div.relative{
+    position: relative;
+    top: 10px;
+    left: 700px;
+    bottom: 200px;
+    width: 500px;
+    height: 300px;
+    border: 3px solid yellow;
+}
+div.absolute{
+    position: absolute;
+    top: 10 px;
+    right: 10px;
+    width: 200px;
+    height: 50px;
+    border: 3 px dashed yellow;
+} 
+.img {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}      
+div.auto_overflow{
+    float: left;
+    background-color: rgb(125, 125, 209);
+    display: inline;
+    width: 70vw;
+    height: 20vh;
+    border: 1px dotted black;
+    overflow: auto;
+}
